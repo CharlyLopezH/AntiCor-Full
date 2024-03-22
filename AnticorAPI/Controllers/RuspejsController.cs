@@ -11,6 +11,8 @@ using AutoMapper;
 using AnticorAPI.DTOs;
 using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
 using AnticorAPI.Utils;
+using System.Drawing;
+using Azure;
 
 namespace AnticorAPI.Controllers
 {
@@ -21,26 +23,31 @@ namespace AnticorAPI.Controllers
         private readonly AppDbContext _context;
         private readonly IMapper mapper;
 
+
+
         public RuspejsController(AppDbContext context, IMapper mapper)
         {
             _context = context;
             this.mapper = mapper;
         }
 
-        [HttpGet("check-curp-exists/{curp}")]
-        public IActionResult CheckCurpExists(string curp)
-        {
-            // Realiza la lógica para verificar si la CURP existe en la otra tabla
-            //bool curpExists = _yourService.CheckCurpExistsInSepifape(curp);
-            bool curpExists = false; //_yourService.CheckCurpExistsInSepifape(curp);
 
-            // Devuelve un resultado
-            return Ok(curpExists);
-        }
+        //funcional...antes de paginar
+        //[HttpGet("check-curp-exists/{curp}")]
+        //public IActionResult CheckCurpExists(string curp)
+        //{
+        //    // Realiza la lógica para verificar si la CURP existe en la otra tabla
+        //    //bool curpExists = _yourService.CheckCurpExistsInSepifape(curp);
+        //    bool curpExists = false; //_yourService.CheckCurpExistsInSepifape(curp);
+
+        //    // Devuelve un resultado
+        //    return Ok(curpExists);
+        //}
+
 
 
         //GET: api/Ruspejs* original*
-        [HttpGet ("complete")]
+        [HttpGet("complete")]
         public async Task<ActionResult<IEnumerable<RuspejDTO>>> GetRuspej_DT()
         {
             //     //Sin Mapear DTO
@@ -65,27 +72,46 @@ namespace AnticorAPI.Controllers
         //    return mapper.Map<List<RuspejDTO>>(ListaRuspejs);
         //}
 
-        [HttpGet]
-        //Para paginación
-        public async Task<ActionResult<IEnumerable<RuspejDTO>>> GetRuspej_DT([FromQuery] PaginacionDTO paginacionDTO)
-        {                    
-            var queryable = _context.Ruspej_DT.AsQueryable();
 
+        //GET: api/Ruspejs
+        [HttpGet]
+        //Controlador ok con paginación desde query;  
+
+        public async Task<ActionResult<IEnumerable<RuspejDTO>>> GetRuspej_DT([FromQuery] PaginacionDTO paginacionDTO)
+        {
+            var queryable = _context.Ruspej_DT.AsQueryable();
             await HttpContext.InsertarParametrosPaginacionEnCabecera(queryable);
+
+            var sepifapeData = await _context.Sepifape_DT                
+               .Select(s => s.CURP)
+               .ToListAsync();
+
             var ListaRuspejs = await _context.Ruspej_DT
-           .OrderBy(r => r.CURP)
-           .Select(r => new RuspejDTO
-           {
-               Id = r.Id,
-               CURP = r.CURP,
-               Nombres = r.Nombres,
-               Email = r.Email,
-               // Agrega otras propiedades según sea necesario
-           })
+
+            .OrderBy(r => r.CURP)
+            .Select(r =>
+            new RuspejDTO
+            {
+
+                Id = r.Id,
+                CURP = r.CURP,
+                Nombres = r.Nombres,
+                Email = r.Email,
+                //Icono = "Ok"                
+                Icono = sepifapeData.Contains(r.CURP) ? "Ok" : string.Empty
+                // Agrega otras propiedades según sea necesario
+            })
         .Paginar(paginacionDTO)
-        .ToListAsync();       
+        .ToListAsync();
             return mapper.Map<List<RuspejDTO>>(ListaRuspejs);
         }
+
+        private AppDbContext Get_context()
+        {
+            return _context;
+        }
+
+
 
 
 

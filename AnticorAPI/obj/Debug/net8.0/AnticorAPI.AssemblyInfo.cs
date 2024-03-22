@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AnticorAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e175db48d1c60b49663b89f2a70f791c04e5d7ab")]
 [assembly: System.Reflection.AssemblyProductAttribute("AnticorAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AnticorAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

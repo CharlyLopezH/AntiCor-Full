@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Contra\\sistemas\\Desarrollos\\.net\\AntiCor\\AnticorAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5926649D-8C7B-4EBF-A4C7-CA0D0ECEFDFD}|AnticorAPI.csproj|c:\\contra\\sistemas\\desarrollos\\.net\\anticor\\anticorapi\\controllers\\ruspejscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5926649D-8C7B-4EBF-A4C7-CA0D0ECEFDFD}|AnticorAPI.csproj|solutionrelative:controllers\\ruspejscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5926649D-8C7B-4EBF-A4C7-CA0D0ECEFDFD}|AnticorAPI.csproj|c:\\contra\\sistemas\\desarrollos\\.net\\anticor\\anticorapi\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5926649D-8C7B-4EBF-A4C7-CA0D0ECEFDFD}|AnticorAPI.csproj|solutionrelative:appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5926649D-8C7B-4EBF-A4C7-CA0D0ECEFDFD}|AnticorAPI.csproj|c:\\contra\\sistemas\\desarrollos\\.net\\anticor\\anticorapi\\migrations\\20240229182343_sepifape.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5926649D-8C7B-4EBF-A4C7-CA0D0ECEFDFD}|AnticorAPI.csproj|solutionrelative:migrations\\20240229182343_sepifape.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5926649D-8C7B-4EBF-A4C7-CA0D0ECEFDFD}|AnticorAPI.csproj|c:\\contra\\sistemas\\desarrollos\\.net\\anticor\\anticorapi\\migrations\\20240213190427_initial.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5926649D-8C7B-4EBF-A4C7-CA0D0ECEFDFD}|AnticorAPI.csproj|solutionrelative:migrations\\20240213190427_initial.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5926649D-8C7B-4EBF-A4C7-CA0D0ECEFDFD}|AnticorAPI.csproj|c:\\contra\\sistemas\\desarrollos\\.net\\anticor\\anticorapi\\entidades\\sepifape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5926649D-8C7B-4EBF-A4C7-CA0D0ECEFDFD}|AnticorAPI.csproj|solutionrelative:entidades\\sepifape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5926649D-8C7B-4EBF-A4C7-CA0D0ECEFDFD}|AnticorAPI.csproj|c:\\contra\\sistemas\\desarrollos\\.net\\anticor\\anticorapi\\controllers\\sepifapescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5926649D-8C7B-4EBF-A4C7-CA0D0ECEFDFD}|AnticorAPI.csproj|solutionrelative:controllers\\sepifapescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20240229182343_Sepifape.Designer.cs",
+              "DocumentMoniker": "C:\\Contra\\sistemas\\Desarrollos\\.net\\AntiCor\\AnticorAPI\\Migrations\\20240229182343_Sepifape.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240229182343_Sepifape.Designer.cs",
+              "ToolTip": "C:\\Contra\\sistemas\\Desarrollos\\.net\\AntiCor\\AnticorAPI\\Migrations\\20240229182343_Sepifape.Designer.cs*",
+              "RelativeToolTip": "Migrations\\20240229182343_Sepifape.Designer.cs*",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAewHoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T16:31:03.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20240213190427_initial.Designer.cs",
+              "DocumentMoniker": "C:\\Contra\\sistemas\\Desarrollos\\.net\\AntiCor\\AnticorAPI\\Migrations\\20240213190427_initial.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240213190427_initial.Designer.cs",
+              "ToolTip": "C:\\Contra\\sistemas\\Desarrollos\\.net\\AntiCor\\AnticorAPI\\Migrations\\20240213190427_initial.Designer.cs",
+              "RelativeToolTip": "Migrations\\20240213190427_initial.Designer.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAD4vxoAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T16:29:48.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Contra\\sistemas\\Desarrollos\\.net\\AntiCor\\AnticorAPI\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "AppDbContext.cs",
+              "ToolTip": "C:\\Contra\\sistemas\\Desarrollos\\.net\\AntiCor\\AnticorAPI\\AppDbContext.cs",
+              "RelativeToolTip": "AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T16:28:34.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Sepifape.cs",
+              "DocumentMoniker": "C:\\Contra\\sistemas\\Desarrollos\\.net\\AntiCor\\AnticorAPI\\Entidades\\Sepifape.cs",
+              "RelativeDocumentMoniker": "Entidades\\Sepifape.cs",
+              "ToolTip": "C:\\Contra\\sistemas\\Desarrollos\\.net\\AntiCor\\AnticorAPI\\Entidades\\Sepifape.cs*",
+              "RelativeToolTip": "Entidades\\Sepifape.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T16:18:20.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SepifapesController.cs",
+              "DocumentMoniker": "C:\\Contra\\sistemas\\Desarrollos\\.net\\AntiCor\\AnticorAPI\\Controllers\\SepifapesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SepifapesController.cs",
+              "ToolTip": "C:\\Contra\\sistemas\\Desarrollos\\.net\\AntiCor\\AnticorAPI\\Controllers\\SepifapesController.cs",
+              "RelativeToolTip": "Controllers\\SepifapesController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T20:39:59.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RuspejsController.cs",
+              "DocumentMoniker": "C:\\Contra\\sistemas\\Desarrollos\\.net\\AntiCor\\AnticorAPI\\Controllers\\RuspejsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RuspejsController.cs",
+              "ToolTip": "C:\\Contra\\sistemas\\Desarrollos\\.net\\AntiCor\\AnticorAPI\\Controllers\\RuspejsController.cs",
+              "RelativeToolTip": "Controllers\\RuspejsController.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAD4v1QAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T15:00:44.752Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

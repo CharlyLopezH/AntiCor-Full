@@ -8,7 +8,7 @@ export const RuspejPage = () => {
        
   const [ruspejData, setRuspejData] = useState<RuspejDTO[]>([]);
   const [currentPage, setCurrentPage] = useState<number>(0);
-  const PAGE_SIZE = 15;
+  const PAGE_SIZE = 10;
 
   const handleOnMouseOver=()=>{
     console.log('onMouseOver');

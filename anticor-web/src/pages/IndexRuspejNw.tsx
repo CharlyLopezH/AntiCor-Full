@@ -7,7 +7,7 @@ import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
 
 export const IndexRuspejNw = () => {
-  //console.log(urlIndiceRuspejs);
+  console.log('ApiUrl--->'+ urlIndiceRuspejs);
 
   const handleOnMouseOver = () => {
     console.log("Hola, Mouse over field :D; debo poner un tooltip");
@@ -84,13 +84,13 @@ export const IndexRuspejNw = () => {
                     <td>{item.curp}</td>
                     <td>{item.nombres.toLocaleUpperCase()}</td>
                     <td onMouseOver={handleOnMouseOver}>
-                    {item.icono !== "Ok" && (
-        <OverlayTrigger placement="top" overlay={<Tooltip id="tooltip">Irregularidades Detectadas: Lorem Ipsum Et al</Tooltip>}
-        >
-          <span className="d-inline-block" tabIndex={0}>
-            <span role="img" aria-label="icon"> 🚩 </span>
-          </span>
-        </OverlayTrigger>
+                    {item.icono === "Ok" && (
+                      <OverlayTrigger placement="top" overlay={<Tooltip id="tooltip">Irregularidades Detectadas: Lorem Ipsum Et al</Tooltip>}
+                      >
+                      <span className="d-inline-block" tabIndex={0}>
+                          <span role="img" aria-label="icon"> 🚩 </span>
+                      </span>
+                      </OverlayTrigger>
       )}
                     </td>
                   </tr>

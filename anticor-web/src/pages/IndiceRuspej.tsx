@@ -4,10 +4,11 @@ import { urlIndiceRuspejs } from "../utils/endpoints";
 import IndiceEntidadT from "../utils/IndiceEntidadT";
 
 export const IndiceRuspej = () => {
-  //console.log(urlIndiceRuspejs);
+  console.log('url: '+urlIndiceRuspejs);
 
   const handleOnMouseOver = () => {
     console.log("Hola, Mouse over field :D");
+    console.log('url: '+urlIndiceRuspejs);
   };
 
   return (
@@ -17,7 +18,7 @@ export const IndiceRuspej = () => {
           url={urlIndiceRuspejs}
           nombreEntidad="Ruspej"
           titulo="Ruspej Data"
-        >
+        >                    
           {(ruspejData) => (
             <>
               <thead>

@@ -2,6 +2,7 @@
 import './App.css'
 import IndiceRuspej from './pages/IndiceRuspej';
 
+
 export  const ACApp = ()=>{
 
     return(
@@ -11,6 +12,8 @@ export  const ACApp = ()=>{
         </div>
         <div>
         {/* <RuspejPage/> */}
+
+        {/* Avance */}
         <IndiceRuspej/>
         </div>
         </>

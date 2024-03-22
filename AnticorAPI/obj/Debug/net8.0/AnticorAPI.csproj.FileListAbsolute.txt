@@ -266,3 +266,4 @@ C:\Contra\sistemas\Desarrollos\.net\AntiCor\AnticorAPI\obj\Debug\net8.0\refint\A
 C:\Contra\sistemas\Desarrollos\.net\AntiCor\AnticorAPI\obj\Debug\net8.0\AnticorAPI.pdb
 C:\Contra\sistemas\Desarrollos\.net\AntiCor\AnticorAPI\obj\Debug\net8.0\AnticorAPI.genruntimeconfig.cache
 C:\Contra\sistemas\Desarrollos\.net\AntiCor\AnticorAPI\obj\Debug\net8.0\ref\AnticorAPI.dll
+C:\Contra\sistemas\Desarrollos\.net\AntiCor\AnticorAPI\obj\Debug\net8.0\AnticorAPI.sourcelink.json
